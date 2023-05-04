@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Menu de Navegação</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="importancia.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Página Inicial</a></li>
+      <li><a href="importancia.html">Bases Numéricas</a></li>
+      <li><a href="integrantes.html">Integrantes</a></li>
+    </ul>
+  </div>
+  
+  <title>Conversor de Bases Numéricas</title>
+  <script type="text/javascript" src="conversao.js" ></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Conversor de Bases Numéricas</h1>
+  <h2>Decimal para Binário</h2>
+  <form>
+    <label for="decimal">Digite um número decimal:</label>
+    <input type="number" id="decimal" name="decimal">
+    <button type="button" onclick="converterDecimalParaBinario()">Converter</button>
+    <p id="resultadoBinario"></p>
+  </form>
+
+  <h2>Decimal para Hexadecimal</h2>
+  <form>
+    <label for="decimalHexa">Digite um número decimal:</label>
+    <input type="number" id="decimalHexa" name="decimalHexa">
+    <button type="button" onclick="converterDecimalParaHexadecimal()">Converter</button>
+    <p id="resultadoDecimalHexadecimal"></p>
+  </form>
+
+  <h2>Binário para Decimal</h2>
+  <form>
+    <label for="binario">Digite um número binário:</label>
+    <input type="text" id="binario" name="binario">
+    <button type="button" onclick="converterBinarioParaDecimal()">Converter</button>
+    <p id="resultadoDecimal"></p>
+  </form>
+
+
+  <h2>Binário para Hexadecimal</h2>
+  <form>
+    <label for="binarioHexa">Digite um número binário:</label>
+    <input type="text" id="binarioHexa" name="binarioHexa">
+    <button type="button" onclick="converterBinarioParaHexadecimal()">Converter</button>
+    <p id="resultadoHexadecimal"></p>
+  </form>
+
+
+  <h2>Hexadecimal para Binário</h2>
+  <form>
+    <label for="hexadecimal">Digite um número hexadecimal:</label>
+    <input type="text" id="hexadecimal" name="hexadecimal">
+    <button type="button" onclick="converterHexadecimalParaBinario()">Converter</button>
+    <p id="resultadoHexadecimalBinario"></p>
+  </form>
+
+
+  <h2>Hexadecimal para Decimal</h2>
+  <form>
+    <label for="hexadecimalDeci">Digite um número hexadecimal:</label>
+    <input type="text" id="hexadecimalDeci" name="hexadecimalDeci">
+    <button type="button" onclick="converterHexadecimalParaDecimal()">Converter</button>
+    <p id="resultadoHexadecimalDecimal"></p>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* Definindo estilos para o corpo da página */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    margin: 15;
+    padding: 15;
+    background-image: linear-gradient(to bottom, #e7ade7, #f9dbf9);
+  }
+  menu.body {
+    
+        background-color: #f7f7f7;
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1.menu   {
+        background-color: #F44336;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      }
+  /* Definindo estilos para o título */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Definindo estilos para o parágrafo */
+  p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 30px 50px;
+  }
+  
+  /* Definindo estilos para a lista */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Definindo estilos para cada item da lista */
+  li {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  /* Definindo estilos para a marcação dos itens da lista */
+  li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Definindo cores diferentes para cada item da lista */
+  li:nth-child(1)::before {
+    background-color: #1abc9c;
+  }
+  
+  li:nth-child(2)::before {
+    background-color: #3498db;
+  }
+  
+  li:nth-child(3)::before {
+    background-color: #f1c40f;
+  }
+  
+  li:nth-child(4)::before {
+    background-color: #e74c3c;
+  }
+  
+  /* Definindo estilo para o link do CSS */
+  link {
+    display: none;
+  }
+  

@@ -1,0 +1,30 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    background-image: url('wall.jpg');
+  }
+  h1 {
+    color: #000608;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  strong {
+    font-weight: bold;
+    font-size: 18px;
+    color: #010a0f;
+  }
+  
